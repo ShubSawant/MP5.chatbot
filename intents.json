@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hodit",
+      "patterns": [
+        "Who is HOD of IT?" ,
+         "IT HOD",
+         "it hod",
+         "hod it"  
+      ],
+      "responses": [
+        "Umbarkar sir",
+        "Anant Umbarkar sir"
+      ]
+    },
+    {
+      "tag": "hodcse",
+      "patterns": [
+        "Who is HOD of CSE?" ,
+         "CSE HOD",
+         "cse hod",
+         "hod cse"  
+      ],
+      "responses": [
+        "Dr M.A.Shah Ma'am",
+        "Shah Mam",
+        "Medha Shah Mam"
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "Head of exam cell" ,
+        "exam section head",
+        "whom should i contact if I have a doubt regarding exam timing?",
+        "To whom can i ask exam related query?",
+        "exam related query",
+        "I want extra time in exam as I am pwd student,who should i contact",
+        "I have issue related to grade card,whom to contact",
+        "gradecard","exam","examination"
+      ],
+      "responses": [
+        "Vardhaman Patil Sir exam section"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "What scholarship are available for student perceiving engineering?" ,
+        "List of scholarship for UG students",
+        "List of scholarship for PG students",
+        "From where can i get information about scholarships?",
+        "When to apply for ebc scholarship?",
+        "WHen to apply for particular scholarship","schlorships in wce","scholoarship","I want to apply for a particular scholarship whom should i contact?"
+      ],
+      "responses": [
+        "Contact scholarship section or student section or visit website:http://www.walchandsangli.ac.in/"
+      ]
+    },   
+    {
+      "tag": "hostel",
+      "patterns": [
+        "does our college have girls hostel?",
+        "Girls hostel",
+        "boys hostel",
+        "does our college have boys hostel?",
+        "hostel in wce",
+        "hostel",
+        "hostels"
+
+      ],
+      "responses": [
+       "There are 8 hostel blocks (D1 to D8) with a capacity to accommodate 738 students. In response to the recent trend of increasing number of girl students, two hostel blocks were suitably modified and converted into girls hostels. A total of 130 girl students are presently availing the facility of hostel accommodation. We intend to augment this by another 46 by the beginning of the next academic yearOn the initiative of our Chairman Shri Ajit Gulabchand, a hostel block with the capacity of 46 students was converted into a cyber hostel with internet connectivity. Students in the cyber hostel can bring their own computers for personal use. WCE is perhaps the first college in Maharashtra to create such facility for students. Cyber hostel has proved to be a useful and popular idea. We intend to extend internet connectivity to other hostels in a phased manner go to:http://walchandsangli.ac.in/docs/students/may17/Hostel_Fee_Rules_2017-18.pdf."
+      ]
+    },
+    {
+      "tag":"subjects",
+      "patterns":[
+        "course structure of IT","IT course struture",
+        "course structure of CSE","CSE course structure",
+        "course structure of mechanical","mechanical course structure",
+        "course structure of electronics","electronics course structure",
+        "course structure of electrical","electrical course structure",
+        "course structure of civil","civil course structure"
+
+      ],
+      "responses":[
+        "visit college website i.e moodle:http://115.247.20.236/moodle/ or http://www.walchandsangli.ac.in/"
+      ]
+    },
+    {
+      "tag":"placements",
+      "patterns":[
+        "placement information of wce",
+        "placements in wce","placements"
+      ],
+      "responses":[
+        "visit college website i.e moodle:http://115.247.20.236/moodle/ or http://www.walchandsangli.ac.in/"
+      ]
+    },
+    {
+      "tag":"clubs",
+      "patterns":[
+       "clubs in wce",
+       "clubs",
+       "students club",
+       "departmental clubs"
+      ],
+      "responses":[
+        "MESE:echanical,SAIT:IT,ACSES:CSE,ELESA:Tronics,EES:Trical,CESA:civil,ACM:CS&IT,Art circle:All branches, SOFTA:localities"
+      ]
+    }
+  ]
+}
